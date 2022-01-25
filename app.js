@@ -62,4 +62,5 @@ function handleGuess(correctSpot, userGuess) {
     winsEl.textContent = correctGuesses;
     lossesEl.textContent = totalGuesses - correctGuesses;
     // update the DOM to show this change to the user (including the losses, not tracked directly in state)
+    //new line of comment to push to github again
 }
